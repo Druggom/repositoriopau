@@ -42,15 +42,55 @@
     <link rel="stylesheet" href="css/resets/normalize.css">
     <!-- Nuestros estilos css -->
     <link rel="stylesheet" href="css/estilos.css">
+
+    <style>
+    
+        .menu-principal_item01{
+            color: green;
+        }
+     </style>
 </head>
 <body>
 
+
+    <a id="boton" href="../index.html">Inicio</a>
     <!-- crear cuadrado color rojo -->
-    <div></div>
-    <div></div>
+    <div class="cajaroja">
+
+    <p class="cajaroja__texto">Super Texto de Prueba</p>
+
+    </div>
+
+    <div class="cajaazul">
+
+        <p class="cajaazul__texto">Super Texto de Prueba para la caja azul</p>
+
+
+    </div>
 
     <span>Hola</span>
     <span>Adios</span>
+
+    <hr>
+
+    <h1>Nuevo ejemplo pero en BEM</h1>
+
+
+    <header>
+        <nav class="menu-principal">
+            <a class="menu-principal__item01--off">inicio</a>
+            <span>&#9474</span>
+            <a href="#" class="menu-principal__item02">servivios</a>
+            <span>&#9474</span>
+            <a href="#" class="menu-principal__item03">quienes somos</a>
+            <span>&#9474</span>
+            <a href="#" class="menu-principal__item04">contactar</a>
+            <span>&#9474</span>
+        </nav>
+    </header>
+  
+   
+      <!-- header>nav.menu>a.menu__item0${item0$*4     -->
 
 </body>
 </html>
