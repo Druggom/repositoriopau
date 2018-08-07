@@ -1,0 +1,74 @@
+html{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+
+
+.sliderprincipal{
+    background-image: url('../img/deckstop/montanas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+
+.sliderprincipal__texto{
+   padding: 180px;
+   text-align: right;
+   width: 78%; 
+   
+}
+.sliderprincipal__texto__titulo{
+    font-size: 170px;
+    color: aliceblue;
+   
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Arial Black'
+    
+
+}
+
+.sliderprincipal__texto__boton{
+    color: paleturquoise;
+    background-color: rgb(253, 253, 253);
+    
+    border: 3px solid whitesmoke;
+    border-radius: 5PX;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+
+.marges{
+    padding: 30px;
+}
+
+
+.slidersecundario__imagen{
+
+    width: 50%;
+    
+    float: left;
+
+}
+.slidersecundario__texto1{
+    
+    width: 43%;
+    /* display: inline-block; */
+    float: right;
+
+}
+
+.slidersecundario__texto2{
+clear: both;
+/* display: inline-block; */
+height: 20%;
+padding-top: 24px;
+}
+
