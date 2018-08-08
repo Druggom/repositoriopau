@@ -5,6 +5,49 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <!-- zona de estilos, ya que es la index principal y no tenemos css -->
+
+        <style>
+
+            /* TIPOGRAFIA */
+            @font-face{
+                font-family: 'OpenSansRegular';
+                src: local('OpenSansRegular');
+            
+                url('opensans-regular-webfont.woff') format('woff');
+            }
+
+            @font-face {
+                font-family: 'OpenSansBold';
+
+                src: local('OpenSansBold');
+                url('opensans-bold-webfont.woff') format('woff');
+            }
+            
+        html{
+            font-size: 16px;
+            font-family: 'OpenSansRegular', sans-serif;
+            }
+
+        ol{
+            list-style-type: none;
+        }
+
+        ol li{
+            margin-bottom: 20px;
+        }
+
+        a{
+            color: black;
+            text-decoration: nonne;
+        }
+
+        h1, h2{
+            font-family: 'OpenSansBold', sans-serif;
+        }
+
+        </style>
 </head>
 <body>
     <h1>
@@ -13,13 +56,11 @@
     </h1>
 
     <ol>
-        <li>
-            
-            <a href="PracticaBlockInline/index.html"> Práctica Block/Inline (HTML5/CSS)</a>
-           
-           </li>
-        <li>item02</li>
-        <li>item03</li>
+        <li><a href="PracticaBlockInline/index.html"> Práctica Block/Inline (HTML5/CSS)</a></li>
+        
+       <li><a href="practicaImagenes/index.html"> Pràctica Imagenes (HTML5/CSS)</a></li>
+        
+        <li><a href="practicabanner/index.html">Pràctica Banner</a></li>
         
         
     </ol>
