@@ -67,10 +67,47 @@
         ol li:hover span.icon, ol li:hover a{
             color: brown;
             /* font-family: 'OpenSansBold'; */
-            letter-spacing: 5px;
+            /* letter-spacing: 5px; */
         }
 
+        /* Pop-up */
+
+        .popup{
+            width: 100px;
+            height: 100px;
+            border: 10px solid #EEE;
+
+            display: none;
+            position: absolute;
+            
+            right: 150;
+            z-index: 10; 
+
+            
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            /*sombrejat:: X= horizontal,I=vertical, Espesor=20px, Ancho=3px */
+            box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.404);
+        }
+
+        ol li:hover .popup{
+            display: inline-block;
+            
+        }
       
+        .popup01{
+            background-image: url('PracticaBlockInline/Capturapracticablockinline.jpg ')
+        }
+
+        .popup02{
+            background-image: url('practicaImagenes/Capturapracticaimatges.jpg')
+        }
+
+        .popup03{
+            background-image: url('practicabanner/capturamontanas.jpg')
+        }
 
         </style>
 </head>
@@ -84,16 +121,26 @@
         <li>
             <!-- insertar un icono -->
             <span class="icon">&#9658; </span>
-            <a href="PracticaBlockInline/index.html"> Práctica Block/Inline (HTML5/CSS)</a></li>
+            <a href="PracticaBlockInline/index.html"> Práctica Block/Inline (HTML5/CSS)</a>
+            <!-- popup(finestra que sobresurt d'una pagina quan passes per damunt...) de cada practica -->
+            <div class="popup popup01"></div>
+
+        </li>
         
        <li>
            <!-- insertar un icono -->
            <span class="icon">&#9658; </span>
-            <a href="practicaImagenes/index.html"> Pràctica Imagenes (HTML5/CSS)</a></li>
+            <a href="practicaImagenes/index.html"> Pràctica Imagenes (HTML5/CSS)</a>
+            <div class="popup popup02"></div>
+        
+        </li>
         
         <li><!-- insertar un icono -->
             <span class="icon">&#9658; </span>
-            <a href="practicabanner/index.html">Pràctica Banner</a></li>
+            <a href="practicabanner/index.html">Pràctica Banner (HTML5/CSS)</a>
+            <div class="popup popup03"></div>
+        
+        </li>
         
         
     </ol>
