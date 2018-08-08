@@ -27,10 +27,16 @@
         html{
             font-size: 16px;
             font-family: 'OpenSansRegular', sans-serif;
+            color: #bababa;
             }
-
+        
+        body{
+            padding: 150px;
+        }
+            
         ol{
             list-style-type: none;
+            padding-left: 0;
         }
 
         ol li{
@@ -38,28 +44,56 @@
         }
 
         a{
-            color: black;
+            color: #bababa;
             text-decoration: nonne;
         }
 
-        h1, h2{
+        h1, h4{
             font-family: 'OpenSansBold', sans-serif;
+            color: black;
+            
         }
+
+        h1{
+            margin-bottom: 0;
+        }
+
+        h4{
+            margin-top: 0;
+            margin-bottom: 68px;
+        }
+        /* rollover: per que canvii de color quan passes amb es rató per damun*/
+
+        ol li:hover span.icon, ol li:hover a{
+            color: brown;
+            /* font-family: 'OpenSansBold'; */
+            letter-spacing: 5px;
+        }
+
+      
 
         </style>
 </head>
 <body>
     <h1>
         directorio web: 
-        <h2>Pau</h2>
+        <h4>(Pau Delgado Rigo)</h4>
     </h1>
 
     <ol>
-        <li><a href="PracticaBlockInline/index.html"> Práctica Block/Inline (HTML5/CSS)</a></li>
+        <li>
+            <!-- insertar un icono -->
+            <span class="icon">&#9658; </span>
+            <a href="PracticaBlockInline/index.html"> Práctica Block/Inline (HTML5/CSS)</a></li>
         
-       <li><a href="practicaImagenes/index.html"> Pràctica Imagenes (HTML5/CSS)</a></li>
+       <li>
+           <!-- insertar un icono -->
+           <span class="icon">&#9658; </span>
+            <a href="practicaImagenes/index.html"> Pràctica Imagenes (HTML5/CSS)</a></li>
         
-        <li><a href="practicabanner/index.html">Pràctica Banner</a></li>
+        <li><!-- insertar un icono -->
+            <span class="icon">&#9658; </span>
+            <a href="practicabanner/index.html">Pràctica Banner</a></li>
         
         
     </ol>
