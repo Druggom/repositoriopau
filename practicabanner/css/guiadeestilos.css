@@ -1,0 +1,111 @@
+@font-face{
+    font-family: 'OpenSansRegular';
+    src: local('OpenSansRegular');
+
+    /* url('opensans-regular-webfont.woff') format('woff'); */
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+
+    src: local('OpenSansBold');
+    /* url('opensans-bold-webfont.woff') format('woff'); */
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+
+h5{
+    font-size: 0.6rem;
+}
+
+h6{
+    font-size: 0.4rem;
+}
+
+
+p{
+    font-size: 1.25rem;
+}
+
+pre{
+    font-size: 1rem;
+}
+
+
+.turquesaTexto{
+    color: aquamarine;
+}
+
+.turquesaFondo{
+    background-color: aquamarine;
+}
+
+.tetalTexto{
+    color: teal;
+}
+
+.tetalFondo{
+    background-color: teal;
+}
+
+.grisTexto{
+    color: slategray;
+}
+
+.grisFondo{
+    background-color: slategray;
+}
+
+.grisoscuroTexto¨{
+    color: darkslategray;
+}
+
+.grisoscuroFondo{
+    background-color: darkslategray;
+}
+.grismedioTexto{
+    color: dimgray;
+}
+
+.grismedioFondo{
+    background-color:dimgray;
+}
+.grislightTexto{
+    color: rgb(228, 224, 224);
+}
+
+.grislightFondo{
+    background-color: rgb(228, 224, 224);
+}
+
+.blancoFondo{
+    background-color: gainsboro;
+}
+
+.negroFondo{
+    background-color: rgb(10, 8, 8)
+}
+
+.tituloPrincipal{
+    font-size: 9.125rem;
+}
+
+.botonTexto{
+    font-size: 2.188rem;
+}
+
+

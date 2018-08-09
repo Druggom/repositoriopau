@@ -1,5 +1,11 @@
+
+
+
+
+
+
 html{
-    font-size: 15px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: green;
 }
@@ -98,7 +104,7 @@ padding-top: 24px;
 
 .articulos__parrafoabajo{
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     background-color: white;
     width: 44%;
     height: 500px;
@@ -115,12 +121,16 @@ padding-top: 24px;
 }
 
 .slidersecundario__texto3{
+    padding: 15px;
 
 }
-.sldiersecundario__segundopaisaje{
-    width: 100%;
+
+.slidersecundario__segundopaisaje{
+     width: 100%;
+}
+   
     
-}
 .slidersecundario__texto4{
-
+    padding: 15px;
+    column-count:2;
 }
